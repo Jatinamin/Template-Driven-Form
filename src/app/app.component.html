@@ -1,13 +1,30 @@
 <h3>Template Driven Form</h3>
 <div>
-  <form class='form-control'  #templateForm="ngForm" (ngSubmit)='onSubmit(templateForm)'>
+  <form
+    class="form-control"
+    #templateForm="ngForm"
+    (ngSubmit)="onSubmit(templateForm)"
+  >
     <label for="fName"> First Name :-</label>
-    <input type="text" id="fName" name="First Name" pattern="[A-Za-z]{3,32}" ngModel />
+    <input
+      type="text"
+      id="fName"
+      name="First Name"
+      pattern="[A-Za-z]{3,32}"
+      ngModel
+    />
     <br />
     <br />
 
     <label for="lName"> Last Name :-</label>
-    <input type="text" id="lName" name="Last Name" pattern="[A-Za-z]{3,32}" ngModel /> <br />
+    <input
+      type="text"
+      id="lName"
+      name="Last Name"
+      pattern="[A-Za-z]{3,32}"
+      ngModel
+    />
+    <br />
     <br />
 
     <label for="city"> City :-</label>
