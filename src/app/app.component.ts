@@ -8,10 +8,7 @@ import { NgForm } from '@angular/forms';
 })
 export class AppComponent {
   
-  // fName: string;
-  // lName: string;
-  // city: string ;
-  // state: string;
+ 
   
   onSubmit(form:NgForm) {
     
